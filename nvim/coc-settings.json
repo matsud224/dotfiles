@@ -1,4 +1,12 @@
 {
+  "languageserver": {
+    "svls": {
+      "command": "svls",
+      "filetypes": [
+        "systemverilog"
+      ]
+    }
+  },
   "coc.preferences.formatOnSave": true,
   "Lua.diagnostics.globals": [
     "vim"
