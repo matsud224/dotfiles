@@ -5,6 +5,9 @@ Plug('neoclide/coc.nvim', { branch = 'release' })
 Plug('nvim-lualine/lualine.nvim')
 vim.call('plug#end')
 
+-- Leader key
+vim.g.mapleader = " "
+
 -- lualine
 require('lualine').setup {
   options = {
@@ -52,7 +55,7 @@ vim.keymap.set('n', '<c-j>', ':bprev <CR>')
 vim.keymap.set('n', '<c-k>', ':bnext <CR>')
 
 -- Terminal color
-vim.o.termguicolors = true
+-- vim.o.termguicolors = true
 
 -- Set tab and space
 vim.opt.expandtab = true
@@ -65,8 +68,8 @@ vim.o.wildmode = "list:longest"
 -- Set highlight on search
 vim.o.hlsearch = true
 
--- Enable mouse mode
-vim.o.mouse = 'a'
+-- Disable mouse mode
+vim.o.mouse = ''
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
