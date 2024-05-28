@@ -8,6 +8,9 @@ vim.call('plug#end')
 -- Leader key
 vim.g.mapleader = " "
 
+-- Color scheme
+vim.cmd 'colorscheme vim'
+
 -- lualine
 require('lualine').setup {
   options = {
