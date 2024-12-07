@@ -11,5 +11,9 @@
   "Lua.diagnostics.globals": [
     "vim"
   ],
-  "rust-analyzer.check.command": "clippy"
+  "rust-analyzer.files.watcher": "server",
+  "rust-analyzer.check.command": "clippy",
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  "solargraph.autoformat": true
 }
